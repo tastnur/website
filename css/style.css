@@ -1,0 +1,361 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("../fonts/gilroy-medium.eot"); /* IE 9 Compatibility Mode */
+  src: url("../fonts/gilroy-medium.eot?#iefix") format("embedded-opentype"),
+    /* IE < 9 */ url("../fonts/gilroy-medium.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/gilroy-medium.woff")
+      format("woff"),
+    /* Firefox >= 3.6, any other modern browser */
+      url("../fonts/gilroy-medium.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/gilroy-medium.svg#gilroy-medium")
+      format("svg"); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("../fonts/gilroy-bold.eot"); /* IE 9 Compatibility Mode */
+  src: url("../fonts/gilroy-bold.eot?#iefix") format("embedded-opentype"),
+    /* IE < 9 */ url("../fonts/gilroy-bold.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/gilroy-bold.woff") format("woff"),
+    /* Firefox >= 3.6, any other modern browser */
+      url("../fonts/gilroy-bold.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/gilroy-bold.svg#gilroy-bold")
+      format("svg"); /* Chrome < 4, Legacy iOS */
+}
+.conteiner {
+  margin: 0px 250px;
+  padding-bottom: 123px;
+}
+.top_menu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 33px;
+}
+.home_item {
+  font-family: "Gilroy-Bold";
+  font-size: 18px;
+  color: #070707;
+}
+.about_me_item,
+.skills_item,
+.portfolio_item,
+.contacts_item {
+  font-family: "Gilroy-Bold";
+  font-size: 18px;
+  color: #828282;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #828282;
+  margin-top: 32px;
+}
+.homescreen {
+  padding-bottom: 104px;
+}
+.top_homescreen {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.title {
+  font-family: "Gilroy-Bold";
+  font-size: 48px;
+  line-height: 58.61px;
+  margin-top: 40px;
+}
+.paragraph_homescreen {
+  padding-bottom: 10px;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+}
+.vertikal_text p {
+  writing-mode: vertical-rl;
+  transform: scale(-1);
+  font-family: "Gilroy-Bold";
+  font-size: 16px;
+}
+.vertikal_text p::first-line {
+  color: #828282;
+}
+.homescreen_image {
+  margin-top: 40px;
+}
+img {
+  max-width: 100%;
+}
+.resume {
+  text-align: center;
+  padding: 120px 100px;
+  background-color: rgba(246, 246, 246, 1);
+  margin-bottom: 100px;
+}
+.title_2 {
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+.paragraph_1,
+.paragraph_2,
+.paragraph_3 {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+}
+.paragraph_1 {
+  margin-bottom: 50px;
+}
+.paragraph_2 {
+  margin-bottom: 50px;
+}
+.skills {
+  text-align: center;
+}
+.skills_top h2 {
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+}
+.skills_top p {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  margin: 70px 0 83px 0;
+}
+.pics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.photoshop_icon,
+.illustrator_icon,
+.after_effects_icon {
+  width: 90px;
+}
+.photoshop_icon {
+  background-color: rgba(52, 54, 78, 0.98);
+}
+.illustrator_icon {
+  background-color: rgba(66, 51, 37, 0.98);
+}
+.after_effects_icon {
+  background-color: rgba(68, 47, 85, 0.98);
+}
+.figma_icons {
+  width: 64px;
+}
+.red_item,
+.purpure_item {
+  margin-right: -2.42px;
+}
+.orange_item,
+.blue_item {
+  margin-left: -2.42px;
+}
+.purpure_item,
+.blue_item {
+  margin-top: -1.3px;
+}
+.green_item {
+  margin: -1px 0 0 -28px;
+}
+.apps_text {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+.apps_text p {
+  font-family: "Gilroy-Bold";
+  font-size: 14px;
+  color: rgba(130, 130, 130, 1);
+}
+.stars {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  padding-bottom: 110px;
+}
+.portfolio {
+  text-align: center;
+  padding: 113px 0 0 0;
+  background-color: rgba(246, 246, 246, 1);
+}
+.portfolio h2 {
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  padding-bottom: 50px;
+}
+.portfolio p {
+  padding-top: 45px;
+  padding-bottom: 100px;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  text-decoration: underline;
+}
+.portfolio img {
+  max-width: 100%;
+}
+footer {
+  text-align: center;
+  padding-top: 115px;
+}
+.text_footer h2 {
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  margin-bottom: 40px;
+}
+.text_footer p {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 42px;
+  background-color: #070707;
+  border-radius: 50px;
+}
+.button a {
+  font-family: "Gilroy-Bold";
+  font-size: 18px;
+  color: #ffffff;
+}
+.footer_icons {
+  display: flex;
+  justify-content: space-around;
+  margin: 86px 25% 0 25%;
+}
+.linkedin {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+.linkedin img {
+  position: absolute;
+}
+.first_item_in {
+  right: 0px;
+}
+.second_item_in {
+  top: 9px;
+  left: 11px;
+}
+.third_item_in {
+  top: 15.67px;
+  left: 11px;
+}
+.fourth_item_in {
+  top: 14.5px;
+  left: 18px;
+}
+.instagram {
+  width: 40px;
+  height: 40px;
+}
+.behance {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+.behance img {
+  position: absolute;
+}
+.first_item_be {
+  right: 0px;
+}
+.second_item_be {
+  top: 11.8px;
+  left: 7.13px;
+}
+.third_item_be {
+  top: 11.8px;
+  left: 22.41px;
+}
+.fourth_item_be {
+  top: 16.48px;
+  left: 21.23px;
+}
+.dribble {
+  width: 40px;
+  height: 40px;
+}
+.grey_text p {
+  font-family: "Gilroy-Medium";
+  font-size: 14px;
+  color: #828282;
+  text-align: center;
+  margin-top: 46px;
+}
