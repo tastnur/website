@@ -117,6 +117,9 @@ h6 {
   font-size: 18px;
   color: #828282;
 }
+.top_menu a:hover {
+  opacity: 70%;
+}
 .line {
   width: 100%;
   height: 1px;
@@ -205,14 +208,31 @@ img {
 .photoshop_icon {
   background-color: rgba(52, 54, 78, 0.98);
 }
+.photoshop_icon:hover {
+  box-shadow: 0 0 15px 0 rgba(68, 70, 92, 0.98);
+  cursor: pointer;
+}
 .illustrator_icon {
   background-color: rgba(66, 51, 37, 0.98);
+}
+.illustrator_icon:hover {
+  box-shadow: 0 0 15px 0 rgba(85, 68, 53, 0.98);
+  cursor: pointer;
 }
 .after_effects_icon {
   background-color: rgba(68, 47, 85, 0.98);
 }
+.after_effects_icon:hover {
+  box-shadow: 0 0 15px 0 rgba(91, 67, 112, 0.98);
+  cursor: pointer;
+}
 .figma_icons {
   width: 64px;
+}
+.figma_icons:hover {
+  box-shadow: 0 0 5px 0 rgba(142, 139, 139, 0.98),
+    inset 0 0 5px 0 rgba(142, 139, 139, 0.98);
+  cursor: pointer;
 }
 .red_item,
 .purpure_item {
@@ -247,7 +267,7 @@ img {
 }
 .portfolio {
   text-align: center;
-  padding: 113px 0 0 0;
+  padding: 113px 0 1px 0;
   background-color: rgba(246, 246, 246, 1);
 }
 .portfolio h2 {
@@ -256,11 +276,15 @@ img {
   padding-bottom: 50px;
 }
 .portfolio p {
-  padding-top: 45px;
-  padding-bottom: 100px;
+  margin-top: 45px;
+  margin-bottom: 100px;
   font-family: "Gilroy-Medium";
   font-size: 18px;
   text-decoration: underline;
+}
+.portfolio p:hover {
+  opacity: 70%;
+  cursor: pointer;
 }
 .portfolio img {
   max-width: 100%;
@@ -287,6 +311,10 @@ footer {
   height: 42px;
   background-color: #070707;
   border-radius: 50px;
+  cursor: pointer;
+}
+.button:hover {
+  box-shadow: 0 0 15px 0 rgb(90, 90, 90);
 }
 .button a {
   font-family: "Gilroy-Bold";
